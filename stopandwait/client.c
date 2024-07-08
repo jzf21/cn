@@ -46,7 +46,7 @@ int main()
             printf("ACK not received, resending frame %d\n", k);
             continue;
         }
-        buffer[recvstatus] = '\0';
+        // buffer[recvstatus] = '\0';
         printf("ACK received %s\n", buffer);
         k--;
     }
