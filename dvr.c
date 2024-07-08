@@ -39,7 +39,7 @@ void main()
 
     int dist[H];
     for (i = 0; i < H; i++)
-        dist[i] = INT_MAX;
+        dist[i] = INT_MAX;//macro
     dist[S] = 0;
 
     for (i = 1; i < H; i++)
